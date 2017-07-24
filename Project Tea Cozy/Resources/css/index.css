@@ -1,0 +1,125 @@
+
+
+.main{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width:100%;
+
+}
+
+header{
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  padding-left: 10px;
+  height: 69px;
+  text-align: left;
+  z-index: 10;
+  border-bottom: 1px solid seashell;
+  justify-content: flex-start;
+}
+
+nav{
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  justify-content: flex-start;
+}
+
+nav li{
+  display: inline-block;
+  color: seashell;
+}
+
+.img-background{
+  position: relative;
+  top: 69px;
+  height: 700px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.mission-description{
+  text-align: center;
+  z-index: 5;
+  background-color: black;
+  align-items: center;
+  width: 100%;
+}
+
+#featuredtea{
+  position: relative;
+  top: 69px;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+#images{
+  display: inline-flex;
+  justify-content: space-around;
+  flex-direction: row;
+
+}
+
+.tea-container{
+}
+
+.tea-container img{
+  height: 200px;
+  width: 300px;
+}
+
+
+#locations{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  display: inline-flex;
+  flex-direction: row;
+  height: 500px;
+  width: 1200px;
+  position: relative;
+  top: 69px;
+  justify-content: center;
+}
+
+.container-location{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.location-info{
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  width: 300px;
+  margin-right: 40px;
+}
+
+#contact{
+  height: 200px;
+  position: relative;
+
+
+}
+
+footer {
+  position: relative;
+  margin: 20px;
+
+  align-self: left;
+}
